@@ -23,7 +23,7 @@ $no = 0;
     <div class="row my-5 px-3 py-5 bg-white border rounded">
         <div class="col">
             <p style="text-align: justify;">
-                &emsp;&emsp;Selamat datang di SISTEM PAKAR MENENTUKAN TINGKAT KECOCOKAN LAHAN UNTUK TANAMAN JAHE Menggunakan Mesin Inferensi Forward Chaining Dengan Metode Certainty Factor. Dibawah ini anda akan diberikan beberapa pertanyaan terkait kriteria lahan. Jawaban dapat diberikan dengan memilih salah satu dari angka pada sisi pertanyaan sesuai dengan karakter lahan. Adapun range jawaban sebagai berikut :
+                &emsp;&emsp;Selamat datang di SISTEM PAKAR MENENTUKAN TINGKAT KECOCOKAN LAHAN UNTUK TANAMAN JAHE Menggunakan Metode Certainty Factor. Dibawah ini anda akan diberikan beberapa pertanyaan terkait kriteria lahan. Jawaban dapat diberikan dengan memilih salah satu dari angka pada sisi pertanyaan sesuai dengan karakter lahan. Adapun range jawaban sebagai berikut :
             </p>
             <ol>
                 <li style="text-align: justify;">Nilai 1 berarti Sangat Tidak Setuju (STS). Bobot nilai CF adalah 0</li>
