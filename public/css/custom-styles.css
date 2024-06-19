@@ -1,0 +1,32 @@
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+.navbar-brand {
+  font-family: "Merriweather Sans", sans-serif;
+}
+.cut-text {
+  max-width: 100px !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+}
+
+.img-custom {
+  max-width: 300px;
+}
+
+.bg-orange {
+  background-color: #ff8906;
+}
+
+@media (min-width: 578px) {
+  .img-custom {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .img-custom {
+    max-width: 450px;
+  }
+}
