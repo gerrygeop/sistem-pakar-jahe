@@ -1,7 +1,5 @@
-## Sistem Pakar
+## Sistem Pakar: Analisa kecocokan lahan untuk tanaman jahe
 
-## Diagnosa awal tingkat kecanduan `Game Online`
+Setting root url & DB : `file app/config/config`
 
-Setting Root url & DB : `file app/config/config`
-
-> Rizky
+> Gerry
