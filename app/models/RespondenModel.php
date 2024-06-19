@@ -140,7 +140,7 @@ class RespondenModel
 
     public function simpanHasil($nilaiH, $solusi)
     {
-        $solusi_id = $this->dapatkanLevelKriteria($nilaiH, $solusi);
+        $solusi_id = $this->getLevelKriteria($nilaiH, $solusi);
         $user_id = intval($_SESSION['user_id']);
 
         $query = "INSERT INTO " . $this->tbl_hasil . " (user_id, solusi_id, nilai_akhir, record) 
@@ -157,7 +157,7 @@ class RespondenModel
         return $this->db->rowCount();
     }
 
-    protected function dapatkanLevelKriteria($nilaiH, $solusi)
+    protected function getLevelKriteria($nilaiH, $solusi)
     {
         foreach ($solusi as $value) {
             if (
