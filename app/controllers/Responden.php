@@ -28,20 +28,6 @@ class Responden extends Controller
         }
     }
 
-    // public function hasilcf()
-    // {
-    //     $data['judul'] = 'Hasil Perhitungan';
-    //     // $data['nilaiH'] = $this->model('RespondenModel')->hasilCF();
-    //     $data['nilaiH'] = $this->model('RespondenModel')->detailRiwayatPerhitungan();
-    //     $data['solusi'] = $this->model('SolusiModel')->getAll();
-    //     $data['mhs'] = $this->model('UserModel')->getUserByNIM($_SESSION['user_id']);
-    //     // $this->model('RespondenModel')->simpanHasil($data['nilaiH'], $data['solusi']);
-
-    //     $this->view('templates/header', $data);
-    //     $this->view('responden/hasil', $data);
-    //     $this->view('templates/footer');
-    // }
-
     public function riwayat()
     {
         $data['judul'] = 'Riwayat Konsultasi';
