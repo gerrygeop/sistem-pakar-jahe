@@ -5,7 +5,7 @@ class Responden extends Controller
 
     public function index()
     {
-        $data['judul'] = 'Konsultasi';
+        $data['judul'] = 'Input data lahan';
         $data['getKriteria'] = $this->model('RespondenModel')->getKriteria();
 
 
@@ -30,7 +30,7 @@ class Responden extends Controller
 
     public function riwayat()
     {
-        $data['judul'] = 'Riwayat Konsultasi';
+        $data['judul'] = 'Riwayat analisa lahan';
         $data['riwayat'] = $this->model('RespondenModel')->getRiwayat();
         $data['solusi'] = $this->model('SolusiModel')->getAll();
 
@@ -41,7 +41,7 @@ class Responden extends Controller
 
     public function detail($record)
     {
-        $data['judul'] = 'Detail Konsultasi';
+        $data['judul'] = 'Detail analisa lahan';
         $data['riwayatResponden'] = $this->model('RespondenModel')->getCFAndHResponden($record);
         $data['nilaiH'] = $this->model('RespondenModel')->detailRiwayatPerhitungan($record);
         $data['solusi'] = $this->model('SolusiModel')->getAll();
